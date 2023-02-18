@@ -1,19 +1,12 @@
 "use client";
-import { NextPage } from 'next';
-import { Card, Row, Col, Container, Image, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import type { NextPage } from 'next'
+import PageHeaderComponent from 'components/pageHeaderComponent';
+import CardGroupContainer from 'components/cardGroupContainer';
+import CardComponent from 'components/cardComponent';
 
-import PageHeaderComponent from 'components/pageHeaderComponent'
-import CardGroupContainer from 'components/cardGroupContainer'
-import CardComponent from 'components/cardComponent'
 
-
-interface SectionProps {
-		title: string;
-		text: string;
-		imageLocation: string;
-}
-
-const HeroQuest: NextPage<SectionProps> = ({ title, text, imageLocation }) => {
+const HeroQuest: NextPage = () => {
 		return (
 				<Container>
 						<PageHeaderComponent

@@ -18,7 +18,7 @@ const Shop: NextPage = () => {
 												/>
 												<h2 className="fw-bolder">Cardmarket Cards Shop</h2>
 												<p className="lead fw-normal text-muted mb-0">If you do purchase our cards from cardmarketm thank you very much, your support is most welcome.</p>
-												<p className="lead fw-normal text-muted mb-0">If you do sign up please add "MoreFromGames" into the Referral Program field, this helps us with a little kickback from your first few orders.</p>
+												<p className="lead fw-normal text-muted mb-0">If you do sign up please add MoreFromGames into the Referral Program field, this helps us with a little kickback from your first few orders.</p>
 												<CardGroupContainer>
 																<CardComponent
 																				title="Pokemon"
@@ -30,7 +30,7 @@ const Shop: NextPage = () => {
 																/>
 																<CardComponent
 																				title="Final Fantasy"
-																				text="Players play cards by spending Crystal Points, earned by 'dulling' (turning from vertical to horizontal) Backup cards, or by discarding cards. The game features a wide range of Characters from games in the Final Fantasy series."
+																				text="Players play cards by spending Crystal Points, earned by dulling (turning from vertical to horizontal) Backup cards, or by discarding cards. The game features a wide range of Characters from games in the Final Fantasy series."
 																				imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1676725564/More%20From%20Games/Site/Games/finalFantasy-tcg_e9qnvi.png"
 																				linkDestination="https://www.cardmarket.com/en/FinalFantasy/MainPage/browseUserProducts?idUser=991365845"
 																				linkTarget="_new"

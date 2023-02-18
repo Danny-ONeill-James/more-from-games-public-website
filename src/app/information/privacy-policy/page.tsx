@@ -6,7 +6,7 @@ import ArticleContainer from '../../../../components/articleContainer';
 import PageHeaderComponent from '../../../../components/pageHeaderComponent';
 
 
-const PrivacyPolicy: NextPage = () => {
+export function PrivacyPolicy()  {
 				return (
 								<Container>
 												<PageHeaderComponent
