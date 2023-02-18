@@ -1,12 +1,11 @@
 "use client";
-import { NextPage } from 'next';
 import { Container } from 'react-bootstrap';
 
 import PageHeaderComponent from 'components/pageHeaderComponent'
 import CardComponent from '../../../components/cardComponent';
 import CardGroupContainer from '../../../components/cardGroupContainer';
 
-const Games: NextPage = () => {
+export default function Miniatures() {
 		return (
 				<Container>
 						<PageHeaderComponent
@@ -113,5 +112,3 @@ const Games: NextPage = () => {
 				</Container>
 		);
 }
-
-export default Games;

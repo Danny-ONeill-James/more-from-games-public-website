@@ -6,7 +6,7 @@ import CardGroupContainer from 'components/cardGroupContainer';
 import CardComponent from 'components/cardComponent';
 
 
-const HeroQuest: NextPage = () => {
+export default function HeroQuest() {
 		return (
 				<Container>
 						<PageHeaderComponent
@@ -126,5 +126,3 @@ const HeroQuest: NextPage = () => {
 				</Container>
 		);
 }
-
-export default HeroQuest;

@@ -8,7 +8,7 @@ import CardComponent from 'components/cardComponent'
 
 
 
-const Games: NextPage = () => {
+export default function Games(){
 		return (
 				<Container>
 						<PageHeaderComponent
@@ -29,6 +29,4 @@ const Games: NextPage = () => {
 				</Container>
 		);
 }
-
-export default Games;
 

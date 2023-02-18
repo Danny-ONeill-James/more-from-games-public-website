@@ -8,7 +8,7 @@ import CardComponent from 'components/cardComponent'
 
 
 
-const Shop: NextPage = () => {
+export default function Shop() {
 				return (
 								<Container>
 												<PageHeaderComponent
@@ -67,6 +67,4 @@ const Shop: NextPage = () => {
 								</Container>
 				);
 }
-
-export default Shop;
 

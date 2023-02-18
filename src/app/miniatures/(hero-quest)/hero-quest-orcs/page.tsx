@@ -1,10 +1,9 @@
 "use client";
-import { NextPage } from 'next';
-import { Card, Row, Col, Container, Image, Button } from 'react-bootstrap';
+import { Card, Row, Col, Container, Button } from 'react-bootstrap';
 
 import PageHeaderComponent from 'components/pageHeaderComponent'
 
-const Games: NextPage = () => {
+export default function Games() {
 		return (
 				<Container>
 						<PageHeaderComponent
@@ -65,5 +64,3 @@ const Games: NextPage = () => {
 				</Container>
 		);
 }
-
-export default Games;

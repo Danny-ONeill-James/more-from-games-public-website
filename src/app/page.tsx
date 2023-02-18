@@ -1,14 +1,11 @@
 "use client"
-import { NextPage, GetServerSideProps } from 'next';
 import { Container } from 'react-bootstrap';
-import ArticleContainer from '../../components/articleContainer';
-import ArticleSectionImageLeft from '../../components/articleSectionImageLeft';
 import CardComponent from '../../components/cardComponent';
 import CardGroupContainer from '../../components/cardGroupContainer';
 import PageHeaderComponent from '../../components/pageHeaderComponent';
 
 
-const Home: NextPage = () => {
+export default function Home() {
 				return (
 								<Container>
 												<PageHeaderComponent
@@ -37,5 +34,3 @@ const Home: NextPage = () => {
 								</Container>
 				);
 }
-
-export default Home;

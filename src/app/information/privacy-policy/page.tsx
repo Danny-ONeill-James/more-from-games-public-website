@@ -5,8 +5,7 @@ import ArticleContainer from '../../../../components/articleContainer';
 
 import PageHeaderComponent from '../../../../components/pageHeaderComponent';
 
-
-export function PrivacyPolicy()  {
+export default function PrivacyPolicy()  {
 				return (
 								<Container>
 												<PageHeaderComponent
@@ -74,5 +73,3 @@ export function PrivacyPolicy()  {
 								</Container>
 				);
 }
-
-export default PrivacyPolicy;
