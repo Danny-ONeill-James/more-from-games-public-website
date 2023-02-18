@@ -21,7 +21,6 @@ const NavigationComponent: NextPage = () => {
                     <Nav className="me-auto"></Nav>
                     <Nav>
                         <Nav.Link href="/shop">Shop</Nav.Link>
-                        <Nav.Link href="/article">Articles</Nav.Link>
                         <Nav.Link href="/games">Games</Nav.Link>
                         <Nav.Link href="/miniatures">Miniatures</Nav.Link>
                     </Nav>
