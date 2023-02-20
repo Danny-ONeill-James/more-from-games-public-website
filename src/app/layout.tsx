@@ -1,7 +1,5 @@
 "use client"; // this is a client componen
 
-import Link from 'next/link'
-import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
 import NavigationComponent from 'components/navigationComponent'
