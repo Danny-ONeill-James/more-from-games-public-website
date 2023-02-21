@@ -14,7 +14,7 @@ const NavigationComponent: NextPage = () => {
                         height="30"
                         className="d-inline-block align-top"
                     />
-                    More From Games
+                      More From Games
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

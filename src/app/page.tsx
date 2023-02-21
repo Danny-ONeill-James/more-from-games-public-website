@@ -17,6 +17,13 @@ export default function Home() {
 												<h2 className="fw-bolder">Highlights</h2>
 												<CardGroupContainer>
 																<CardComponent
+																				title="Zombies painting Video"
+																				text="Our seccond Installment of start painting continues with the Zombies from Hero Quest."
+																				imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1676645295/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-zombie-painted_lwg7dg.png"
+																				linkDestination="/miniatures/hero-quest-zombies"
+																				linkTarget="_self"
+																/>
+																<CardComponent
 																				title="Hero Quest added to games"
 																				text="The Hero Quest board game is the first game that we have conent for. This will be the first of many items to be added to our rosta"
 																				imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1676546001/More%20From%20Games/Site/Games/hero_quest_ufrncm.png"
