@@ -11,7 +11,7 @@ export default function Miniatures() {
 						<PageHeaderComponent
 								title="Miniatures"
 								text="Here you will find the selection of miniatures that we have content for. We at More from Games take our own picctures of our miniatures, if the miniature is bare plastic then there is unlikley a painting tutorial yet, if they are shown as painted then there is likley to be a painting video, these will be updatred accordingly."
-								imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1676549773/More%20From%20Games/placeholder_urxkej.png"
+														imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1677020474/More%20From%20Games/Site/Page%20Headers/miniatures_header_md05sf.png"
 						/>
 
 						<section>

@@ -14,7 +14,7 @@ export default function Games(){
 						<PageHeaderComponent
 								title="Games"
 								text="Here you will find the selection of games that we have content for. As the More From Games website is still in its infancy, our collection is very small, but this will continue to grow over the near future."
-								imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1676549773/More%20From%20Games/placeholder_urxkej.png"
+														imageLocation="https://res.cloudinary.com/deftmtx9e/image/upload/v1677020640/More%20From%20Games/Site/Page%20Headers/Games_Header_k1laqh.png"
 						/>
 						<h2 className="fw-bolder">Board Games</h2>
 						<CardGroupContainer>

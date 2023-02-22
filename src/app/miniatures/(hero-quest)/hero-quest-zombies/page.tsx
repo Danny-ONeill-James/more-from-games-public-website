@@ -31,9 +31,15 @@ export default function Games() {
 																												</div>
 																												<div className="col-lg-6">
 																																<h2 className="fw-bolder">How to paint the Zombie</h2>
+																																<p className="lead fw-normal text-muted mb-0"><b>Paints List: </b>Bonewhite, Stonewall Grey, Leather Brown, Beasty Brown, Gunmetal, Black.</p>
+																																<p className="lead fw-normal text-muted mb-0"><b>Wash List: </b>Black Wash, Umber Wash, Red Wash, Pale Grey Wash.</p>
 																																<p className="lead fw-normal text-muted mb-0">
-																																				The More from Games start painting series wil show you an easy and quick way to paint your miniatures to play.
-																																				This is currently not available
+																																				<b>Guide: </b>
+																																				The basing of the model includes: Skin with Bonewhite, making sure to get full coverage so the undercoat does not show through,
+																																				fabric trousers with Stonewall Grey, the leather areas including the boots, arm wraps and belt with Leather Brown, the shield
+																																				with Beasty Brown and the Sword with Gunmetal and the hair with Black. Then move onto the washes around the model, Black wash
+																																				on the trousers and sword, Umber Wash covering the shield, boots, wraps and belt then cover around 70% of the skin with a red
+																																				wash allowing it to pool and a heavy wash of pale grey on the hair. 
 																																</p>
 																												</div>
 																								</div>
