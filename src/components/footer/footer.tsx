@@ -283,8 +283,7 @@ export default function FooterComponent() {
           <div className="grid md:grid-cols-2 items-center">
             <div className="ltr:md:text-left rtl:md:text-right text-center">
               <p className="mb-0">
-                © <script>document.write(new Date().getFullYear())</script>{" "}
-                Techwind. Design with{" "}
+                © 2023 Techwind. Design with{" "}
                 <i className="mdi mdi-heart text-red-600"></i> by{" "}
                 <a
                   href="https://shreethemes.in/"
