@@ -17,7 +17,7 @@ export default function NavigationComponent() {
             </li>
 
             <li className="has-submenu parent-menu-item">
-              <a href="javascript:void(0)">Docs</a>
+              <a href="#">Docs</a>
               <span className="menu-arrow"></span>
               <ul className="submenu">
                 <li>
