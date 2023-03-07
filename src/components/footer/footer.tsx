@@ -11,8 +11,8 @@ export default function FooterComponent() {
                     <img src="assets/images/logo-light.png" alt="" />
                   </a>
                   <p className="mt-6 text-gray-300">
-                    Start working with Tailwind CSS that can provide everything
-                    you need to generate awareness, drive traffic, connect.
+                    We are your source for everything you need to take your
+                    board, tabletop and roleplay games to the next level
                   </p>
                   <ul className="list-none mt-6">
                     <li className="inline">
