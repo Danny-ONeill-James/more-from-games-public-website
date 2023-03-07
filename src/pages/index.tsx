@@ -48,7 +48,7 @@ export function Home() {
         <div className="grid md:grid-cols-12 grid-cols-1 mt-8">
           <div className="md:col-span-12 text-center">
             <a
-              href="nft-explore.html"
+              href="/"
               className="btn btn-link text-slate-400 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
             >
               Explore All Items{" "}
