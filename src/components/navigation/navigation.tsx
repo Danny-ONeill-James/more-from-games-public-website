@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 export default function NavigationComponent() {
   return (
     <nav
@@ -11,8 +8,13 @@ export default function NavigationComponent() {
         <div id="navigation">
           <ul className="navigation-menu">
             <li>
-              <a href="index.html" className="sub-menu-item">
+              <a href="/" className="sub-menu-item">
                 Home
+              </a>
+            </li>
+            <li>
+              <a href="/games" className="sub-menu-item">
+                Games
               </a>
             </li>
 

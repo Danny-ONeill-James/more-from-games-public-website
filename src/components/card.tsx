@@ -3,7 +3,7 @@ export default function Card() {
     <div className="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
       <div className="relative">
         <img
-          src="https://res.cloudinary.com/deftmtx9e/image/upload/v1676546001/More%20From%20Games/Site/Games/hero_quest_ufrncm.png"
+          src="https://res.cloudinary.com/deftmtx9e/image/upload/v1678273349/More%20From%20Games/placeholder_wxmc94.png"
           alt="Hero Quest Image"
         />
 
@@ -18,10 +18,10 @@ export default function Card() {
           href="/"
           className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out"
         >
-          Hero Quest{" "}
+          Title //TODO: make this 1 line only{" "}
         </a>
         <p className="text-slate-400 mt-3">
-          Description of hero quest //TODO: make this 3 lines only
+          Description: //TODO: make this 3 lines only
         </p>
 
         <div className="mt-4">
