@@ -15,7 +15,7 @@ export function Games() {
             "Players take on the roles of brave adventurers, exploring dungeons and fighting monsters. The game utilizes a unique game system which incorporates miniatures, dungeon tiles, and cards to create an immersive experience. Players must use strategy and teamwork to defeat the monsters and complete their objectives."
           }
           imageLocation={
-            "https://res.cloudinary.com/deftmtx9e/image/upload/v1669381073/More%20From%20Games/placeholder_rpff81.png"
+            "https://res.cloudinary.com/deftmtx9e/image/upload/v1678273349/More%20From%20Games/placeholder_wxmc94.png"
           }
           link={"/games/hero-quest"}
         />

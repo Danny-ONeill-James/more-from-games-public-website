@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NavigationComponent() {
   return (
     <nav
@@ -8,42 +10,42 @@ export default function NavigationComponent() {
         <div id="navigation">
           <ul className="navigation-menu">
             <li>
-              <a href="/" className="sub-menu-item">
+              <Link href="/" className="sub-menu-item">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/games" className="sub-menu-item">
+              <Link href="/games" className="sub-menu-item">
                 Games
-              </a>
+              </Link>
             </li>
 
             <li className="has-submenu parent-menu-item">
-              <a href="#">Docs</a>
+              <Link href="#">Docs</Link>
               <span className="menu-arrow"></span>
               <ul className="submenu">
                 <li>
-                  <a href="documentation.html" className="sub-menu-item">
+                  <Link href="documentation.html" className="sub-menu-item">
                     Documentation
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="changelog.html" className="sub-menu-item">
+                  <Link href="changelog.html" className="sub-menu-item">
                     Changelog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="widget.html" className="sub-menu-item">
+                  <Link href="widget.html" className="sub-menu-item">
                     Widget
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
 
             <li>
-              <a href="contact-one.html" className="sub-menu-item">
+              <Link href="contact-one.html" className="sub-menu-item">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

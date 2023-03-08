@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FooterComponent() {
   return (
     <footer className="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
@@ -8,7 +10,12 @@ export default function FooterComponent() {
               <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                 <div className="lg:col-span-4 md:col-span-12">
                   <a href="#" className="text-[22px] focus:outline-none">
-                    <img src="assets/images/logo-light.png" alt="" />
+                    <Image
+                      src="https://res.cloudinary.com/deftmtx9e/image/upload/v1678297712/More%20From%20Games/siteLogo/logo-light_nrk68q.png"
+                      alt=""
+                      width="138"
+                      height="24"
+                    />
                   </a>
                   <p className="mt-6 text-gray-300">
                     We are your source for everything you need to take your
@@ -17,102 +24,108 @@ export default function FooterComponent() {
                   <ul className="list-none mt-6">
                     <li className="inline">
                       <a
-                        href="https://1.envato.market/techwind"
+                        href="https://www.facebook.com/MoreFromGames"
+                        target="_blank"
+                        className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                      >
+                        <i title="facebook">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
+                            />
+                          </svg>
+                        </i>
+                      </a>
+                    </li>
+                    <li className="inline">
+                      <a
+                        href="https://www.tiktok.com/@morefromgames"
                         target="_blank"
                         className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                       >
                         <i
-                          className="uil uil-shopping-cart align-middle"
-                          title="Buy Now"
-                        ></i>
+                          className="uil uil-tiktok align-middle"
+                          title="customization"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"
+                            />
+                          </svg>
+                        </i>
                       </a>
                     </li>
                     <li className="inline">
                       <a
-                        href="https://dribbble.com/shreethemes"
+                        href="https://www.instagram.com/morefromgames/"
                         target="_blank"
                         className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                       >
-                        <i
-                          className="uil uil-dribbble align-middle"
-                          title="dribbble"
-                        ></i>
+                        <i title="instagram">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"
+                            />
+                          </svg>
+                        </i>
                       </a>
-                    </li>
+                    </li>{" "}
                     <li className="inline">
                       <a
-                        href="https://www.behance.net/shreethemes"
-                        target="_blank"
+                        href="https://www.youtube.com/@morefromgames"
                         className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                       >
-                        <i className="uil uil-behance" title="Behance"></i>
+                        <i title="email">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 48 48"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                stroke-width="4"
+                                d="M11.064 10.414c5.543-.276 9.854-.414 12.934-.414s7.393.138 12.939.415a6 6 0 0 1 5.68 5.492c.254 3.034.381 5.706.381 8.017c0 2.339-.13 5.048-.39 8.128a6 6 0 0 1-5.587 5.483c-4.741.31-9.082.465-13.023.465c-3.94 0-8.28-.155-13.018-.465a6 6 0 0 1-5.587-5.48c-.263-3.103-.395-5.814-.395-8.131c0-2.29.129-4.963.385-8.02a6 6 0 0 1 5.68-5.49Z"
+                              />
+                              <path
+                                stroke-width="3.429"
+                                d="M21 19.61v8.796a.857.857 0 0 0 1.33.715l6.597-4.36a.857.857 0 0 0 .006-1.427l-6.598-4.436a.857.857 0 0 0-1.335.711Z"
+                              />
+                            </g>
+                          </svg>
+                        </i>
                       </a>
                     </li>
                     <li className="inline">
                       <a
-                        href="http://linkedin.com/company/shreethemes"
-                        target="_blank"
-                        className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
-                      >
-                        <i className="uil uil-linkedin" title="Linkedin"></i>
-                      </a>
-                    </li>
-                    <li className="inline">
-                      <a
-                        href="https://www.facebook.com/shreethemes"
-                        target="_blank"
-                        className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
-                      >
-                        <i
-                          className="uil uil-facebook-f align-middle"
-                          title="facebook"
-                        ></i>
-                      </a>
-                    </li>
-                    <li className="inline">
-                      <a
-                        href="https://www.instagram.com/shreethemes/"
-                        target="_blank"
-                        className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
-                      >
-                        <i
-                          className="uil uil-instagram align-middle"
-                          title="instagram"
-                        ></i>
-                      </a>
-                    </li>
-                    <li className="inline">
-                      <a
-                        href="https://twitter.com/shreethemes"
-                        target="_blank"
-                        className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
-                      >
-                        <i
-                          className="uil uil-twitter align-middle"
-                          title="twitter"
-                        ></i>
-                      </a>
-                    </li>
-                    <li className="inline">
-                      <a
-                        href="mailto:support@shreethemes.in"
+                        href="mailto:info@morefromgames.com"
                         className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                       >
                         <i
                           className="uil uil-envelope align-middle"
                           title="email"
-                        ></i>
-                      </a>
-                    </li>
-                    <li className="inline">
-                      <a
-                        href="https://forms.gle/QkTueCikDGqJnbky9"
-                        target="_blank"
-                        className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
-                      >
-                        <i
-                          className="uil uil-file align-middle"
-                          title="customization"
                         ></i>
                       </a>
                     </li>
@@ -274,80 +287,6 @@ export default function FooterComponent() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="py-[30px] px-0 border-t border-slate-800">
-        <div className="container text-center">
-          <div className="grid md:grid-cols-2 items-center">
-            <div className="ltr:md:text-left rtl:md:text-right text-center">
-              <p className="mb-0">
-                © 2023 Techwind. Design with{" "}
-                <i className="mdi mdi-heart text-red-600"></i> by{" "}
-                <a
-                  href="https://shreethemes.in/"
-                  target="_blank"
-                  className="text-reset"
-                >
-                  Shreethemes
-                </a>
-                .
-              </p>
-            </div>
-
-            <ul className="list-none ltr:md:text-right rtl:md:text-left text-center mt-6 md:mt-0">
-              <li className="inline">
-                <a href="">
-                  <img
-                    src="assets/images/payments/american-ex.png"
-                    className="max-h-6 inline"
-                    title="American Express"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li className="inline">
-                <a href="">
-                  <img
-                    src="assets/images/payments/discover.png"
-                    className="max-h-6 inline"
-                    title="Discover"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li className="inline">
-                <a href="">
-                  <img
-                    src="assets/images/payments/master-card.png"
-                    className="max-h-6 inline"
-                    title="Master Card"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li className="inline">
-                <a href="">
-                  <img
-                    src="assets/images/payments/paypal.png"
-                    className="max-h-6 inline"
-                    title="Paypal"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li className="inline">
-                <a href="">
-                  <img
-                    src="assets/images/payments/visa.png"
-                    className="max-h-6 inline"
-                    title="Visa"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
