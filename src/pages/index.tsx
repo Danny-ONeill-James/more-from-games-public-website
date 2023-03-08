@@ -45,7 +45,14 @@ export function Home() {
         title="Highlights"
         text="The most recent additions to the More From Games library."
       >
-        <Card />
+        <Card
+          title={"Title here"}
+          text={"Description Here"}
+          imageLocation={
+            "https://res.cloudinary.com/deftmtx9e/image/upload/v1669381073/More%20From%20Games/placeholder_rpff81.png"
+          }
+          link={"/"}
+        />
       </CardContainer>
     </>
   );
