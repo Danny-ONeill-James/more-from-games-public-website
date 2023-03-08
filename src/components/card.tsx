@@ -8,7 +8,6 @@ export default function Card() {
         />
 
         <div className="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
-          <i className="uil uil-clock align-middle"></i>
           <small id="auction-item-1" className="font-semibold"></small>
         </div>
       </div>
