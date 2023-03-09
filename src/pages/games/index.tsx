@@ -14,7 +14,7 @@ const Games: NextPage<IGameProps> = ({ boardGames }) => {
   return (
     <>
       <title>Games - More From Games</title>
-      <PageHero />
+      <PageHero title="Games" />
       <CardContainer title="Board Games" text="Top Board Games.">
         {boardGames.map((game) => {
           return (

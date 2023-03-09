@@ -1,14 +1,13 @@
 import { NextPage } from "next";
 import Image from "next/image";
+import { ICardCompoent } from "@/utilities/interfaces";
 
-interface SectionProps {
-  title: string;
-  text: string;
-  imageLocation: string;
-  link: string;
-}
-
-const Card: NextPage<SectionProps> = ({ title, text, imageLocation, link }) => {
+const Card: NextPage<ICardCompoent> = ({
+  title,
+  text,
+  imageLocation,
+  link,
+}) => {
   return (
     <div className="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
       <div className="relative">

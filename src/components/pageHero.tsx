@@ -1,17 +1,21 @@
-export default function PageHero() {
+import { NextPage } from "next";
+
+import { IPageHero } from "@/utilities/interfaces";
+
+const PageHero: NextPage<IPageHero> = ({ title }) => {
   return (
     <>
       <section className="relative table w-full py-32 lg:py-40 bg-gradient-to-br to-orange-600/20 via-fuchsia-600/20 from-indigo-600/20">
         <div className="container">
           <div className="grid grid-cols-1 text-center mt-10">
-            <h3 className="text-3xl leading-normal font-medium">Page Title</h3>
+            <h3 className="text-3xl leading-normal font-medium">{title}</h3>
           </div>
         </div>
 
         <div className="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
           <ul className="breadcrumb tracking-[0.5px] mb-0 inline-block">
             <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
-              <a href="index.html">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
               <a href="index-nft.html">Breadcrum</a>
@@ -42,4 +46,6 @@ export default function PageHero() {
       </div>
     </>
   );
-}
+};
+
+export default PageHero;
