@@ -3,25 +3,44 @@ import Card from "@/components/card";
 import PageHero from "@/components/pageHero";
 import CardContainer from "@/components/cardContainer";
 
-export function Games() {
+import { IGame } from "@/utilities/interfaces";
+import { NextPage } from "next";
+
+interface IGameProps {
+  boardGames: IGame[];
+}
+
+const Games: NextPage<IGameProps> = ({ boardGames }) => {
   return (
     <>
       <title>Games - More From Games</title>
       <PageHero />
       <CardContainer title="Board Games" text="Top Board Games.">
-        <Card
-          title={"Hero Quest"}
-          text={
-            "Players take on the roles of brave adventurers, exploring dungeons and fighting monsters. The game utilizes a unique game system which incorporates miniatures, dungeon tiles, and cards to create an immersive experience. Players must use strategy and teamwork to defeat the monsters and complete their objectives."
-          }
-          imageLocation={
-            "https://res.cloudinary.com/deftmtx9e/image/upload/v1678273349/More%20From%20Games/placeholder_wxmc94.png"
-          }
-          link={"/games/hero-quest"}
-        />
+        {boardGames.map((game) => {
+          return (
+            <Card
+              key={game.id}
+              title={game.title}
+              text={game.description}
+              imageLocation={game.imageLocation}
+              link={game.link}
+            />
+          );
+        })}
       </CardContainer>
     </>
   );
-}
+};
+
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:3000/api/gamesList");
+  const data = await res.json();
+
+  return {
+    props: {
+      boardGames: data,
+    },
+  };
+};
 
 export default Games;
