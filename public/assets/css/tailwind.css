@@ -2631,7 +2631,7 @@ video {
   fill: rgb(79 70 229 / 0.05) !important;
 }
 .stroke-1 {
-  stroke-width: 1 !important;
+  strokewidth: 1 !important;
 }
 .object-cover {
   -o-object-fit: cover !important;
@@ -7266,7 +7266,7 @@ html[dir="rtl"] .tns-visually-hidden {
 }
 
 .group:hover .group-hover\:stroke-\[1\.5px\] {
-  stroke-width: 1.5px !important;
+  strokewidth: 1.5px !important;
 }
 
 .group:hover .group-hover\:p-\[10px\] {
