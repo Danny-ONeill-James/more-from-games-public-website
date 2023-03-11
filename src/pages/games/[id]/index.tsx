@@ -1,21 +1,24 @@
-import { Inter } from "next/font/google";
+import Image from "next/image";
+import { GetServerSideProps, NextPage } from "next";
+import { useRouter } from "next/router";
+
 import Card from "@/components/card";
 import PageHero from "@/components/pageHero";
 import CardContainer from "@/components/cardContainer";
-import Image from "next/image";
 
 import { IGame } from "@/utilities/interfaces";
-import { NextPage } from "next";
 
 interface IGameProps {
-  boardGame: IGame;
+  game: IGame;
 }
 
-const Game: NextPage<IGameProps> = ({ boardGame }) => {
+const Game: NextPage<IGameProps> = ({ game }) => {
+  const router = useRouter();
+  console.log(router.route.lastIndexOf);
   return (
     <>
       <title>Title - More From Games</title>
-      <PageHero title="Title" />
+      <PageHero title={"Title"} />
       <section className="relative table w-full md:pb-24 pb-16 mt-28">
         <div className="container">
           <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
@@ -96,6 +99,17 @@ const Game: NextPage<IGameProps> = ({ boardGame }) => {
       </section>
     </>
   );
+};
+
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:3000/api/gamesList");
+  const data = await res.json();
+
+  return {
+    props: {
+      game: data,
+    },
+  };
 };
 
 export default Game;

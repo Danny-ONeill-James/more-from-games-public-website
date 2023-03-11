@@ -23,7 +23,7 @@ const Games: NextPage<IGameProps> = ({ boardGames }) => {
               title={game.title}
               text={game.description}
               imageLocation={game.imageLocation}
-              link={game.link}
+              link={"/games/" + game.link}
             />
           );
         })}

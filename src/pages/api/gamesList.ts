@@ -15,7 +15,7 @@ export default function handler(
       type: "Board Game",
       imageLocation:
         "https://res.cloudinary.com/deftmtx9e/image/upload/v1678368260/More%20From%20Games/Site/Games/hero-quest_diq2yz.png",
-      link: "/games/hero-quest",
+      link: "hero-quest",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default function handler(
       type: "Board Game",
       imageLocation:
         "https://res.cloudinary.com/deftmtx9e/image/upload/v1678368332/More%20From%20Games/Site/Games/dark-souls_my1lnr.png",
-      link: "/games/dark-souls",
+      link: "dark-souls",
     },
   ]);
 }
