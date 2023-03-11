@@ -15,6 +15,6 @@ export interface IGame {
   description: string;
   type: string;
   imageLocation: string;
-  link: string;
+  gameLink: string;
   purchaseLink?: string;
 }

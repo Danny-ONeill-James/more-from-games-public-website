@@ -1,0 +1,28 @@
+{
+  "Games": [
+    {
+      "id": 1,
+      "title": "Star Wars Legein",
+      "description": "Star Wars: Legion is played over the course of six rounds as you and your opponent duel over objectives on a battlefield of the Galactic Civil War. At the end of six rounds, the player with the most victory tokens (earned from objectives) wins the game.",
+      "type": "Board Game",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678554071/More%20From%20Games/Site/Games/star-wars-legeon_nlmfbo.png",
+      "gameLink": "star-wars-legion"
+    },
+    {
+      "id": 2,
+      "title": "Hero Quest",
+      "description": "Players take on the roles of brave adventurers, exploring dungeons and fighting monsters. The game utilizes a unique game system which incorporates miniatures, dungeon tiles, and cards to create an immersive experience. Players must use strategy and teamwork to defeat the monsters and complete their objectives.",
+      "type": "Board Game",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678368260/More%20From%20Games/Site/Games/hero-quest_diq2yz.png",
+      "gameLink": "hero-quest"
+    },
+    {
+      "id": 3,
+      "title": "Dark Souls",
+      "description": "Take on a tabletop reimagining of one of the most challenging video games ever made. In this cooperative dungeon crawl game for 1-4 players, you'll explore dangerous locations, discover treasure, and fight your way past deadly enemies to reclaim your humanity.",
+      "type": "Board Game",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678368332/More%20From%20Games/Site/Games/dark-souls_my1lnr.png",
+      "gameLink": "dark-souls"
+    }
+  ]
+}

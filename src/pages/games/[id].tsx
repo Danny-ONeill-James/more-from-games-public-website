@@ -13,23 +13,21 @@ interface IGameProps {
 }
 
 const Game: NextPage<IGameProps> = ({ game }) => {
-  const router = useRouter();
-  console.log(router.route.lastIndexOf);
   return (
     <>
-      <title>Title - More From Games</title>
-      <PageHero title={"Title"} />
+      <title>More From Games</title>
+      <PageHero title={game.title} />
       <section className="relative table w-full md:pb-24 pb-16 mt-28">
         <div className="container">
           <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
             <div className="lg:col-span-6 md:col-span-5">
               <div className="sticky top-20">
                 <Image
-                  src="https://res.cloudinary.com/deftmtx9e/image/upload/v1678368260/More%20From%20Games/Site/Games/hero-quest_diq2yz.png"
+                  src={game.imageLocation}
                   className="rounded-md shadow-md dark:shadow-gray-800"
                   width={600}
                   height={600}
-                  alt=""
+                  alt={game.title + " image"}
                 />
               </div>
             </div>
@@ -37,15 +35,13 @@ const Game: NextPage<IGameProps> = ({ game }) => {
             <div className="lg:col-span-6 md:col-span-7">
               <div className="">
                 <h5 className="lg:text-4xl lg:leading-relaxed text-2xl font-semibold">
-                  Hero Quest
+                  {game.title}
                 </h5>
 
                 <div className="grid grid-cols-1 mt-8">
                   <div id="StarterContent" className="mt-6">
                     <div className="grid grid-cols-1">
-                      <p className="text-slate-400 mb-4">
-                        Hero Quest Descripton
-                      </p>
+                      <p className="text-slate-400 mb-4">{game.description}</p>
                     </div>
                   </div>
                 </div>
@@ -101,8 +97,12 @@ const Game: NextPage<IGameProps> = ({ game }) => {
   );
 };
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/gamesList");
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
+  const { id } = query;
+  const res = await fetch("http://localhost:3000/api/gameIndividual", {
+    body: JSON.stringify(`${id}`),
+    method: "POST",
+  });
   const data = await res.json();
 
   return {
