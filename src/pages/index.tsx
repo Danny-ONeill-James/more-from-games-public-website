@@ -52,6 +52,7 @@ export function Home() {
             "https://res.cloudinary.com/deftmtx9e/image/upload/v1678368585/More%20From%20Games/Site/site/home-hero_zvr8ak.png"
           }
           link={"/"}
+          target={"_self"}
         />
       </CardContainer>
     </>
