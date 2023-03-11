@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 
 import { IPageHero } from "@/utilities/interfaces";
+import Link from "next/link";
 
 const PageHero: NextPage<IPageHero> = ({ title }) => {
   return (
@@ -15,7 +16,7 @@ const PageHero: NextPage<IPageHero> = ({ title }) => {
         <div className="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
           <ul className="breadcrumb tracking-[0.5px] mb-0 inline-block">
             <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
               <a href="index-nft.html">Breadcrum</a>
