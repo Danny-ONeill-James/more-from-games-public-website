@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { GetServerSideProps, NextPage } from "next";
-import { useRouter } from "next/router";
 
 import Card from "@/components/card";
 import PageHero from "@/components/pageHero";
@@ -25,22 +23,13 @@ const Game: NextPage<IMiniatureProps> = ({ miniature }) => {
           title={miniature.title}
           text={miniature.description}
         />
-        <div className="grid grid-cols-1 pb-8 text-center "></div>
         <VideoLeft
           title={"Painting Guide"}
-          text={"Description"}
+          text={
+            "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
           embedCode={miniature.paintingVideoEmbedCode}
         />
-        <CardContainer title={"Links"} text={""}>
-          <Card
-            title={"Miniature 1"}
-            text={"Sext about miniature 1 that will be dynamic"}
-            imageLocation={
-              "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png"
-            }
-            link={"/games"}
-          />
-        </CardContainer>
       </section>
     </>
   );

@@ -26,6 +26,7 @@ export interface ICardCompoent {
   text: string;
   imageLocation: string;
   link: string;
+  target: string;
 }
 
 export interface IGame {
@@ -35,7 +36,7 @@ export interface IGame {
   type: string;
   imageLocation: string;
   gameLink: string;
-  purchaseLink?: string;
+  purchaseLink: string;
 }
 
 export interface IMiniature {

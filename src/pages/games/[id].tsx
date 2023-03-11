@@ -42,6 +42,7 @@ const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
                 text={miniature.description}
                 imageLocation={miniature.imageLocation}
                 link={"/miniatures/" + miniature.miniatureLink}
+                target={"_self"}
               />
             );
           })}
@@ -51,8 +52,11 @@ const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
           <Card
             title={"Firestorm Games"}
             text={"Stock: Unknown"}
-            imageLocation={""}
-            link={""}
+            imageLocation={
+              "https://res.cloudinary.com/deftmtx9e/image/upload/v1678575887/More%20From%20Games/Site/Affiliates/firestorm-games_tsx1ts.png"
+            }
+            link={game.purchaseLink}
+            target={"_new"}
           />
         </CardContainer>
       </section>

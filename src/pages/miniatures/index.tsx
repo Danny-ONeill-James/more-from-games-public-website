@@ -23,6 +23,7 @@ const Games: NextPage<IGameProps> = ({ miniatures }) => {
               text={miniature.description}
               imageLocation={miniature.imageLocation}
               link={"/miniatures/" + miniature.miniatureLink}
+              target={"_self"}
             />
           );
         })}

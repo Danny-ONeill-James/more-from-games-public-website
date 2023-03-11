@@ -7,6 +7,7 @@ const Card: NextPage<ICardCompoent> = ({
   text,
   imageLocation,
   link,
+  target,
 }) => {
   return (
     <div className="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
@@ -29,6 +30,7 @@ const Card: NextPage<ICardCompoent> = ({
         <a
           href={link}
           className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out line-clamp-1"
+          target={target}
         >
           {title}{" "}
         </a>
@@ -38,6 +40,7 @@ const Card: NextPage<ICardCompoent> = ({
           <a
             href={link}
             className="btn btn-link font-normal hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+            target={target}
           >
             Read More <i className="uil uil-arrow-right"></i>
           </a>

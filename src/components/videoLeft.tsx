@@ -4,7 +4,7 @@ import { IVideo } from "@/utilities/interfaces";
 
 const VideoLeft: NextPage<IVideo> = ({ embedCode, title, text }) => {
   return (
-    <div className="container">
+    <div className="container mt-16">
       <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
         <div className="lg:col-span-6 md:col-span-7">
           <div className="">
