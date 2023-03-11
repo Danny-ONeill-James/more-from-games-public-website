@@ -1,3 +1,9 @@
+export interface ISectionProps {
+  children: React.ReactNode;
+  title: string;
+  text: string;
+}
+
 export interface IPageHero {
   title: string;
 }

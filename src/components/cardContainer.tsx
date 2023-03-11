@@ -1,12 +1,7 @@
 import { NextPage } from "next";
+import { ISectionProps } from "@/utilities/interfaces";
 
-interface SectionProps {
-  children: React.ReactNode;
-  title: string;
-  text: string;
-}
-
-const CardContainer: NextPage<SectionProps> = ({ children, title, text }) => {
+const CardContainer: NextPage<ISectionProps> = ({ children, title, text }) => {
   return (
     <>
       <div className="container md:mt-24 mt-16">
