@@ -14,6 +14,12 @@ export interface IArticle {
   text: string;
 }
 
+export interface IVideo {
+  embedCode: string;
+  title: string;
+  text: string;
+}
+
 export interface ICardCompoent {
   id?: number;
   title: string;
@@ -39,5 +45,5 @@ export interface IMiniature {
   gameLink: string;
   imageLocation: string;
   miniatureLink: string;
-  paintingVideoEmbedCode?: string;
+  paintingVideoEmbedCode: string;
 }
