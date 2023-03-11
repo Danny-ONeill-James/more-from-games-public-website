@@ -13,7 +13,7 @@ interface IGameProps {
 const Games: NextPage<IGameProps> = ({ boardGames }) => {
   return (
     <>
-      <title>Games - More From Games</title>
+      <title>More From Games</title>
       <PageHero title="Games" />
       <CardContainer title="Board Games" text="Top Board Games.">
         {boardGames.map((game) => {

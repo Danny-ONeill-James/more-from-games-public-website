@@ -14,38 +14,27 @@ export default function NavigationComponent() {
                 Home
               </Link>
             </li>
-            <li>
-              <Link href="/games" className="sub-menu-item">
-                Games
-              </Link>
-            </li>
-
             <li className="has-submenu parent-menu-item">
-              <Link href="#">Docs</Link>
+              <Link href="/games">Games</Link>
               <span className="menu-arrow"></span>
               <ul className="submenu">
                 <li>
-                  <Link href="documentation.html" className="sub-menu-item">
-                    Documentation
-                  </Link>
-                </li>
-                <li>
-                  <Link href="changelog.html" className="sub-menu-item">
-                    Changelog
-                  </Link>
-                </li>
-                <li>
-                  <Link href="widget.html" className="sub-menu-item">
-                    Widget
+                  <Link href="/games" className="sub-menu-item">
+                    All Games
                   </Link>
                 </li>
               </ul>
             </li>
-
-            <li>
-              <Link href="contact-one.html" className="sub-menu-item">
-                Contact
-              </Link>
+            <li className="has-submenu parent-menu-item">
+              <Link href="/miniatures">Miniatures</Link>
+              <span className="menu-arrow"></span>
+              <ul className="submenu">
+                <li>
+                  <Link href="/miniatures" className="sub-menu-item">
+                    All Miniatures
+                  </Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
