@@ -2,6 +2,12 @@ export interface IPageHero {
   title: string;
 }
 
+export interface IArticle {
+  imageLocation: string;
+  title: string;
+  text: string;
+}
+
 export interface ICardCompoent {
   id?: number;
   title: string;
@@ -27,4 +33,5 @@ export interface IMiniature {
   gameLink: string;
   imageLocation: string;
   miniatureLink: string;
+  paintingVideoEmbedCode?: string;
 }

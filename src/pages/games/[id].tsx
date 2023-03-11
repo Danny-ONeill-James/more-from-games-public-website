@@ -6,6 +6,7 @@ import PageHero from "@/components/pageHero";
 import CardContainer from "@/components/cardContainer";
 
 import { IGame, IMiniature } from "@/utilities/interfaces";
+import ArticleRight from "@/components/articleRight";
 
 interface IGameProps {
   game: IGame;
@@ -26,37 +27,12 @@ const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
       <title>More From Games</title>
       <PageHero title={game.title} />
       <section className="relative table w-full md:pb-24 pb-16 mt-28">
-        <div className="container">
-          <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
-            <div className="lg:col-span-6 md:col-span-5">
-              <div className="sticky top-20">
-                <Image
-                  src={game.imageLocation}
-                  className="rounded-md shadow-md dark:shadow-gray-800"
-                  width={600}
-                  height={600}
-                  alt={game.title + " image"}
-                />
-              </div>
-            </div>
+        <ArticleRight
+          imageLocation={game.imageLocation}
+          title={game.title}
+          text={game.description}
+        />
 
-            <div className="lg:col-span-6 md:col-span-7">
-              <div className="">
-                <h5 className="lg:text-4xl lg:leading-relaxed text-2xl font-semibold">
-                  {game.title}
-                </h5>
-
-                <div className="grid grid-cols-1 mt-8">
-                  <div id="StarterContent" className="mt-6">
-                    <div className="grid grid-cols-1">
-                      <p className="text-slate-400 mb-4">{game.description}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <CardContainer title={"Miniatures"} text={miniatureMessage}>
           {miniatures.map((miniature) => {
             return (

@@ -7,6 +7,7 @@ import PageHero from "@/components/pageHero";
 import CardContainer from "@/components/cardContainer";
 
 import { IMiniature } from "@/utilities/interfaces";
+import ArticleRight from "@/components/articleRight";
 
 interface IMiniatureProps {
   miniature: IMiniature;
@@ -18,39 +19,42 @@ const Game: NextPage<IMiniatureProps> = ({ miniature }) => {
       <title>More From Games</title>
       <PageHero title={miniature.title} />
       <section className="relative table w-full md:pb-24 pb-16 mt-28">
-        <div className="container">
-          <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
-            <div className="lg:col-span-6 md:col-span-5">
-              <div className="sticky top-20">
-                <Image
-                  src={miniature.imageLocation}
-                  className="rounded-md shadow-md dark:shadow-gray-800"
-                  width={600}
-                  height={600}
-                  alt={miniature.title + " image"}
-                />
-              </div>
-            </div>
-
-            <div className="lg:col-span-6 md:col-span-7">
-              <div className="">
-                <h5 className="lg:text-4xl lg:leading-relaxed text-2xl font-semibold">
-                  {miniature.title}
-                </h5>
-
-                <div className="grid grid-cols-1 mt-8">
-                  <div id="StarterContent" className="mt-6">
-                    <div className="grid grid-cols-1">
-                      <p className="text-slate-400 mb-4">
-                        {miniature.description}
-                      </p>
-                    </div>
+        <ArticleRight
+          imageLocation={miniature.imageLocation}
+          title={miniature.title}
+          text={miniature.description}
+        />
+        <CardContainer
+          title={"Painting Video"}
+          text={
+            "Here you will find the start painting video aimed at starting to get people painting the miniatures"
+          }
+        >
+          <div className="grid grid-cols-1 justify-center">
+            <div className="relative z-1">
+              <div className="grid lg:grid-cols-12 grid-cols-1 ltr:md:text-left rtl:md:text-right text-center justify-center">
+                <div className="lg:col-start-2 lg:col-span-10">
+                  <div className="relative">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={
+                        "https://www.youtube.com/embed/" +
+                        miniature.paintingVideoEmbedCode
+                      }
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    ></iframe>
+                    <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center"></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </CardContainer>
+
         <CardContainer title={"Links"} text={""}>
           <Card
             title={"Miniature 1"}

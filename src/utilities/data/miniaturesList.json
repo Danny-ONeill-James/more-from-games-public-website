@@ -6,7 +6,8 @@
       "description": "The barbarian, the greatest warrior of all. But beware of magic for your sword is no defence against it.",
       "gameLink": "hero-quest",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676642775/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-barbarian_bdrx3f.png",
-      "miniatureLink": "hero-quest-barbarian"
+      "miniatureLink": "hero-quest-barbarian",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "description": "A good warrior and has the unique ability to disarm traps without a tool kit. To do so, a black shiled must be avoided whilst rolling a combat die.",
       "gameLink": "hero-quest",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676642940/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-dwarf_p3brvn.png",
-      "miniatureLink": "hero-quest-dwarf"
+      "miniatureLink": "hero-quest-dwarf",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "description": "You have the ability to cast many different spells. However, you cannot wear armour or use large weapons. Therefore, you must cast your spells wisely and avoid physical combat where you are weak.",
       "gameLink": "hero-quest",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676644270/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuestWizard_otrmuv.png",
-      "miniatureLink": "hero-quest-wizard"
+      "miniatureLink": "hero-quest-wizard",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "description": "A master of both magic and the sword. Yu must use both well if you are to triumph. You have the power to cast three magical spells, all relating to one element.",
       "gameLink": "hero-quest",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676644742/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-elf_rocgxo.png",
-      "miniatureLink": "hero-quest-elf"
+      "miniatureLink": "hero-quest-elf",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "description": "The Warrior is one of the most well-rounded starting classes, with high Strength and Dexterity, allowing them to make use of a lot of the equipment they come across. They also start with a solid shield and an easy-to-use weapon, as well as fairly light armor that sacrifices Poise for mobility.",
       "gameLink": "dark-souls",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1677629657/More%20From%20Games/Site/Miniatures/Dark%20Souls/Warrior_pehisy.png",
-      "miniatureLink": "dark-souls-warrior"
+      "miniatureLink": "dark-souls-warrior",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "description": "This is a test item to see what happens when the titles are the same on a miniature",
       "gameLink": "dark-souls",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1677629656/More%20From%20Games/Site/Miniatures/Dark%20Souls/Knight_vqbkre.png",
-      "miniatureLink": "dark-souls-barbarian"
+      "miniatureLink": "dark-souls-barbarian",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     }
   ]
 }
