@@ -8,7 +8,7 @@ export interface IPageHero {
   title: string;
 }
 
-export interface IArticle {
+export interface IArticlePage {
   imageLocation: string;
   title: string;
   text: string;
@@ -47,4 +47,25 @@ export interface IMiniature {
   imageLocation: string;
   miniatureLink: string;
   paintingVideoEmbedCode: string;
+}
+
+export interface IArticles {
+  id: number;
+  title: string;
+  description: string;
+  imageLocation: string;
+  itemLink: string;
+  sections: [
+    {
+      id: number;
+      title: string;
+      imageLocation: string;
+      body: [
+        {
+          id: number;
+          paragraph: string;
+        }
+      ];
+    }
+  ];
 }

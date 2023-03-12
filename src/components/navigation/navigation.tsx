@@ -36,6 +36,17 @@ export default function NavigationComponent() {
                 </li>
               </ul>
             </li>
+            <li className="has-submenu parent-menu-item">
+              <Link href="/articles">Articles</Link>
+              <span className="menu-arrow"></span>
+              <ul className="submenu">
+                <li>
+                  <Link href="/articles" className="sub-menu-item">
+                    All Articles
+                  </Link>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>

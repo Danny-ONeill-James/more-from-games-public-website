@@ -1,0 +1,59 @@
+{
+  "Articles": [
+    {
+      "id": 1,
+      "title": "Article Title",
+      "description": "Article Description goes here.",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+      "itemLink": "star-wars-legion",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Article Section Title 1",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": [
+            { "id": 1, "paragraph": "First Paragraph of the Article" },
+            { "id": 2, "paragraph": "Seccond Paragraph of the Article" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Article Section Title 1",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": [
+            { "id": 1, "paragraph": "First Paragraph of the second Article " },
+            { "id": 2, "paragraph": "Seccond Paragraph of the first Article" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Article 2 Title",
+      "description": "Article 2 Description goes here.",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+      "itemLink": "star-wars-legion",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Article Section Title 1",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": [
+            { "id": 1, "paragraph": "First Paragraph of the Article" },
+            { "id": 2, "paragraph": "Seccond Paragraph of the Article" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Article Section Title 1",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": [
+            { "id": 1, "paragraph": "First Paragraph of the second Article" },
+            { "id": 2, "paragraph": "Seccond Paragraph of the first Article" },
+            { "id": 3, "paragraph": "Third Paragraph of the first Article" }
+          ]
+        }
+      ]
+    }
+  ]
+}
