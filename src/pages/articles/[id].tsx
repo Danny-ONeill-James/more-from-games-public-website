@@ -20,6 +20,7 @@ const Article: NextPage<IArticleProps> = ({ article }) => {
           if (remainder === 0) {
             return (
               <ArticleRight
+                key={section.id}
                 imageLocation={section.imageLocation}
                 title={section.title}
                 text={section.title}
@@ -28,6 +29,7 @@ const Article: NextPage<IArticleProps> = ({ article }) => {
           } else {
             return (
               <ArticleLeft
+                key={section.id}
                 imageLocation={section.imageLocation}
                 title={section.title}
                 text={section.title}
