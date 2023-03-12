@@ -9,15 +9,11 @@ export default async function handler(
 ) {
   if ((req.method = "POST")) {
     const articlesJson = await articles.Articles;
-    console.log("Article JSON: " + articlesJson);
     const postBody = await JSON.parse(req.body);
-    console.log("Trying to find: " + postBody);
 
     const foundArticle = await articlesJson.find(
       (Articles) => Articles.id == postBody
     );
-
-    console.log("Found: " + foundArticle);
 
     res.status(200).json(foundArticle);
   }
