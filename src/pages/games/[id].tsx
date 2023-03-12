@@ -88,7 +88,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       method: "POST",
     }),
     fetch("http://localhost:3000/api/articlesList", {
-      body: JSON.stringify(`${id}`),
+      body: JSON.stringify(`/games/${id}`),
       method: "POST",
     }),
   ]);

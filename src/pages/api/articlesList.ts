@@ -17,7 +17,7 @@ export default async function handler(
     let foundArticle: IArticles[] = new Array();
 
     articlesJson.forEach((element) => {
-      if (element.itemLink == "/games/" + postBody) {
+      if (element.itemLink == postBody) {
         foundArticle.push(element as IArticles);
       }
     });

@@ -47,22 +47,22 @@
     },
     {
       "id": 2,
-      "title": "Article 2 Title",
-      "description": "Article 2 Description goes here.",
+      "title": "Skeleton Painting Guide",
+      "description": "Description goes here.",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-      "itemLink": "star-wars-legion",
+      "itemLink": "/miniatures/hero-quest-skeletons",
       "sections": [
         {
           "id": 1,
-          "title": "Article Section Title 1",
+          "title": "Needed Paints",
           "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "First Paragraph of the second Article."
+          "body": "A list of paints that are needed."
         },
         {
           "id": 2,
-          "title": "Article Section Title 1",
+          "title": "Process",
           "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "First Paragraph of the second Article."
+          "body": "The painting process."
         }
       ]
     }
