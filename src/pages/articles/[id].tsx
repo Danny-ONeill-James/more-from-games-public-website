@@ -13,9 +13,14 @@ const Article: NextPage<IArticleProps> = ({ article }) => {
     <>
       <PageHero title={"Articles"} />
       <section className="relative table w-full md:pb-24 pb-16 mt-28">
+        <ArticleLeft
+          imageLocation={article.imageLocation}
+          title={article.title}
+          text={article.description}
+        />
         {article.sections.map((section) => {
           const remainder = section.id % 2;
-          if (remainder === 0) {
+          if (remainder === 1) {
             return (
               <ArticleRight
                 key={section.id}
