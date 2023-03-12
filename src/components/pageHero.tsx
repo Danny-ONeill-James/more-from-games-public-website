@@ -30,6 +30,7 @@ const PageHero: NextPage<IPageHero> = ({ title }) => {
               if (breadcrumb == breadcrumbs.slice(-1)[0]) {
                 return (
                   <li
+                    key={breadcrumb.text}
                     className="inline breadcrumb-item uppercase text-[13px] font-bold text-indigo-600"
                     aria-current="page"
                   >
@@ -38,7 +39,10 @@ const PageHero: NextPage<IPageHero> = ({ title }) => {
                 );
               } else {
                 return (
-                  <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
+                  <li
+                    key={breadcrumb.text}
+                    className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"
+                  >
                     <Link href={"/" + breadcrumb.path}>{breadcrumb.text}</Link>
                   </li>
                 );
