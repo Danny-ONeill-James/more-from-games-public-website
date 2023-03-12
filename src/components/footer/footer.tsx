@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FooterComponent() {
   return (
@@ -143,12 +144,12 @@ export default function FooterComponent() {
                   <ul className="list-none footer-list mt-6">
                     
                     <li className="mt-[10px]">
-                      <a
-                        href="page-privacy.html"
+                      <Link
+                        href="/privacyPolicy"
                         className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                       >
                         <i className="uil uil-angle-right-b"></i> Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                     
                   </ul>

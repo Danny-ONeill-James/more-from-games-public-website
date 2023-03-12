@@ -10,6 +10,7 @@ import NavigationComponent from "@/components/navigation/navigation";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
+    <title>More From Games</title>
       <NavigationComponent />
       <Component {...pageProps} />
       <FooterComponent />
