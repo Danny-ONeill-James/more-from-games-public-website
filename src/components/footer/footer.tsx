@@ -133,16 +133,13 @@ export default function FooterComponent() {
                   </ul>
                 </div>
 
-                <div className="lg:col-span-2 md:col-span-4">
-                  
-                </div>
+                <div className="lg:col-span-2 md:col-span-4"></div>
 
                 <div className="lg:col-span-3 md:col-span-4">
                   <h5 className="tracking-[1px] text-gray-100 font-semibold">
                     Usefull Links
                   </h5>
                   <ul className="list-none footer-list mt-6">
-                    
                     <li className="mt-[10px]">
                       <Link
                         href="/privacyPolicy"
@@ -151,12 +148,10 @@ export default function FooterComponent() {
                         <i className="uil uil-angle-right-b"></i> Privacy Policy
                       </Link>
                     </li>
-                    
                   </ul>
                 </div>
 
-                <div className="lg:col-span-3 md:col-span-4">
-                  </div>
+                <div className="lg:col-span-3 md:col-span-4"></div>
               </div>
             </div>
           </div>
