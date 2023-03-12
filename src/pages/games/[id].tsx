@@ -30,21 +30,6 @@ const Game: NextPage<IGameProps> = ({ game, miniatures, articles }) => {
           text={game.description}
         />
 
-        <CardContainer title={"Miniatures"} text={miniatureMessage}>
-          {miniatures.map((miniature) => {
-            return (
-              <Card
-                key={miniature.id}
-                title={miniature.title}
-                text={miniature.description}
-                imageLocation={miniature.imageLocation}
-                link={"/miniatures/" + miniature.miniatureLink}
-                target={"_self"}
-              />
-            );
-          })}
-        </CardContainer>
-
         <CardContainer title={"Articles"} text={articleMessage}>
           {articles.map((article) => {
             return (
@@ -54,6 +39,21 @@ const Game: NextPage<IGameProps> = ({ game, miniatures, articles }) => {
                 text={article.description}
                 imageLocation={article.imageLocation}
                 link={"/articles/" + article.id}
+                target={"_self"}
+              />
+            );
+          })}
+        </CardContainer>
+
+        <CardContainer title={"Miniatures"} text={miniatureMessage}>
+          {miniatures.map((miniature) => {
+            return (
+              <Card
+                key={miniature.id}
+                title={miniature.title}
+                text={miniature.description}
+                imageLocation={miniature.imageLocation}
+                link={"/miniatures/" + miniature.miniatureLink}
                 target={"_self"}
               />
             );
