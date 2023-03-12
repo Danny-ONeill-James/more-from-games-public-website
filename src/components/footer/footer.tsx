@@ -133,67 +133,7 @@ export default function FooterComponent() {
                 </div>
 
                 <div className="lg:col-span-2 md:col-span-4">
-                  <h5 className="tracking-[1px] text-gray-100 font-semibold">
-                    Company
-                  </h5>
-                  <ul className="list-none footer-list mt-6">
-                    <li>
-                      <a
-                        href="page-aboutus.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> About us
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="page-services.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Services
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="page-team.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Team
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="page-pricing.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Pricing
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="portfolio-creative-four.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Project
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="blog.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Blog
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="auth-login.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Login
-                      </a>
-                    </li>
-                  </ul>
+                  
                 </div>
 
                 <div className="lg:col-span-3 md:col-span-4">
@@ -201,15 +141,7 @@ export default function FooterComponent() {
                     Usefull Links
                   </h5>
                   <ul className="list-none footer-list mt-6">
-                    <li>
-                      <a
-                        href="page-terms.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Terms of
-                        Services
-                      </a>
-                    </li>
+                    
                     <li className="mt-[10px]">
                       <a
                         href="page-privacy.html"
@@ -218,73 +150,12 @@ export default function FooterComponent() {
                         <i className="uil uil-angle-right-b"></i> Privacy Policy
                       </a>
                     </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="documentation.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Documentation
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="changelog.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Changelog
-                      </a>
-                    </li>
-                    <li className="mt-[10px]">
-                      <a
-                        href="widget.html"
-                        className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
-                      >
-                        <i className="uil uil-angle-right-b"></i> Widget
-                      </a>
-                    </li>
+                    
                   </ul>
                 </div>
 
                 <div className="lg:col-span-3 md:col-span-4">
-                  <h5 className="tracking-[1px] text-gray-100 font-semibold">
-                    Newsletter
-                  </h5>
-                  <p className="mt-6">
-                    Sign up and receive the latest tips via email.
-                  </p>
-                  <form>
-                    <div className="grid grid-cols-1">
-                      <div className="foot-subscribe my-3">
-                        <label className="form-label">
-                          Write your email{" "}
-                          <span className="text-red-600">*</span>
-                        </label>
-                        <div className="form-icon relative mt-2">
-                          <i
-                            data-feather="mail"
-                            className="w-4 h-4 absolute top-3 ltr:left-4 rtl:right-4"
-                          ></i>
-                          <input
-                            type="email"
-                            className="form-input bg-gray-800 border border-gray-800 text-gray-100 ltr:pl-12 rtl:pr-12 focus:shadow-none"
-                            placeholder="Email"
-                            name="email"
-                            required
-                          />
-                        </div>
-                      </div>
-
-                      <button
-                        type="submit"
-                        id="submitsubscribe"
-                        name="send"
-                        className="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"
-                      >
-                        Subscribe
-                      </button>
-                    </div>
-                  </form>
-                </div>
+                  </div>
               </div>
             </div>
           </div>
