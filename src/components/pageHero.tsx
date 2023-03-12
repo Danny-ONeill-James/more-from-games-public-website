@@ -1,9 +1,18 @@
 import { NextPage } from "next";
+import { useRouter } from "next/router";
 
 import { IPageHero } from "@/utilities/interfaces";
 import Link from "next/link";
 
 const PageHero: NextPage<IPageHero> = ({ title }) => {
+  const router = useRouter();
+  const path = router.asPath.split("/");
+  let breadcrumbs = new Array();
+  for (let i = 0; i < path.length; i++) {
+    breadcrumbs.push({ path: path[i], text: path[i] });
+  }
+  console.log("Breadcrumb: " + breadcrumbs);
+
   return (
     <>
       <section className="relative table w-full py-32 lg:py-40 bg-gradient-to-br to-orange-600/20 via-fuchsia-600/20 from-indigo-600/20">
@@ -15,18 +24,26 @@ const PageHero: NextPage<IPageHero> = ({ title }) => {
 
         <div className="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
           <ul className="breadcrumb tracking-[0.5px] mb-0 inline-block">
-            <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
-              <a href="index-nft.html">Breadcrum</a>
-            </li>
-            <li
-              className="inline breadcrumb-item uppercase text-[13px] font-bold text-indigo-600"
-              aria-current="page"
-            >
-              Breadcrum
-            </li>
+            {breadcrumbs.map((breadcrumb) => {
+              if (breadcrumb.text == "") breadcrumb.text = "Home";
+              console.log("Breadcrumb: " + breadcrumbs.slice(-1)[0]);
+              if (breadcrumb == breadcrumbs.slice(-1)[0]) {
+                return (
+                  <li
+                    className="inline breadcrumb-item uppercase text-[13px] font-bold text-indigo-600"
+                    aria-current="page"
+                  >
+                    {breadcrumb.text}
+                  </li>
+                );
+              } else {
+                return (
+                  <li className="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600">
+                    <Link href={"/" + breadcrumb.path}>{breadcrumb.text}</Link>
+                  </li>
+                );
+              }
+            })}
           </ul>
         </div>
       </section>
