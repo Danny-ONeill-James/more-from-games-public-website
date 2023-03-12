@@ -24,7 +24,6 @@ const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
 
   return (
     <>
-      <title>More From Games</title>
       <PageHero title={game.title} />
       <section className="relative table w-full md:pb-24 pb-16 mt-28">
         <ArticleRight
