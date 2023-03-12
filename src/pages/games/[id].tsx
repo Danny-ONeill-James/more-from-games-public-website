@@ -1,26 +1,24 @@
-import Image from "next/image";
 import { GetServerSideProps, NextPage } from "next";
 
 import Card from "@/components/card";
 import PageHero from "@/components/pageHero";
 import CardContainer from "@/components/cardContainer";
-
-import { IGame, IMiniature } from "@/utilities/interfaces";
 import ArticleRight from "@/components/articleRight";
+
+import { IArticles, IGame, IMiniature } from "@/utilities/interfaces";
 
 interface IGameProps {
   game: IGame;
   miniatures: IMiniature[];
+  articles: IArticles[];
 }
 
-const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
-  console.log(miniatures.length);
-  let miniatureMessage;
-  if (miniatures.length == 0) {
-    miniatureMessage = "No Miniatures for this game";
-  } else {
-    miniatureMessage = "";
-  }
+const Game: NextPage<IGameProps> = ({ game, miniatures, articles }) => {
+  let miniatureMessage = "";
+  let articleMessage = "";
+
+  if (miniatures.length == 0) miniatureMessage = "No Miniatures for this game";
+  if (articles.length == 0) articleMessage = "No Articles for this game";
 
   return (
     <>
@@ -47,6 +45,21 @@ const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
           })}
         </CardContainer>
 
+        <CardContainer title={"Articles"} text={articleMessage}>
+          {articles.map((article) => {
+            return (
+              <Card
+                key={article.id}
+                title={article.title}
+                text={article.description}
+                imageLocation={article.imageLocation}
+                link={"/articles/" + article.id}
+                target={"_self"}
+              />
+            );
+          })}
+        </CardContainer>
+
         <CardContainer title={"Where to Buy"} text={""}>
           <Card
             title={"Firestorm Games"}
@@ -65,7 +78,7 @@ const Game: NextPage<IGameProps> = ({ game, miniatures }) => {
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { id } = query;
-  const [gameResults, miniaturesResults] = await Promise.all([
+  const [gameResults, miniaturesResults, articlesResults] = await Promise.all([
     fetch("http://localhost:3000/api/gameIndividual", {
       body: JSON.stringify(`${id}`),
       method: "POST",
@@ -74,17 +87,23 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       body: JSON.stringify(`${id}`),
       method: "POST",
     }),
+    fetch("http://localhost:3000/api/articlesList", {
+      body: JSON.stringify(`${id}`),
+      method: "POST",
+    }),
   ]);
 
-  const [game, miniatures] = await Promise.all([
+  const [game, miniatures, articles] = await Promise.all([
     gameResults.json(),
     miniaturesResults.json(),
+    articlesResults.json(),
   ]);
 
   return {
     props: {
       game,
       miniatures,
+      articles,
     },
   };
 };
