@@ -2,28 +2,46 @@
   "Articles": [
     {
       "id": 1,
-      "title": "Article Title",
-      "description": "Article Description goes here.",
+      "title": "Dark Souls our first look",
+      "description": "We tried out the Dark Souls board game, and here are our first thoughts.",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-      "itemLink": "star-wars-legion",
+      "itemLink": "/games/dark-souls",
       "sections": [
         {
           "id": 1,
-          "title": "Article Section Title 1",
+          "title": "How it works",
           "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": [
-            { "id": 1, "paragraph": "First Paragraph of the Article" },
-            { "id": 2, "paragraph": "Seccond Paragraph of the Article" }
-          ]
+          "body": "Details on how this games works."
         },
         {
           "id": 2,
-          "title": "Article Section Title 1",
+          "title": "What you get in the box",
           "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": [
-            { "id": 1, "paragraph": "First Paragraph of the second Article " },
-            { "id": 2, "paragraph": "Seccond Paragraph of the first Article" }
-          ]
+          "body": "A description of what you get in the box."
+        },
+        {
+          "id": 3,
+          "title": "The game system",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": "A description of how the game system works."
+        },
+        {
+          "id": 4,
+          "title": "The first game",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": "Thoughts on the learning curve."
+        },
+        {
+          "id": 5,
+          "title": "The LADs thoughts",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": "Thoughts from each of the players."
+        },
+        {
+          "id": 6,
+          "title": "Summery",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
+          "body": "A full summery of the game."
         }
       ]
     },
@@ -38,20 +56,13 @@
           "id": 1,
           "title": "Article Section Title 1",
           "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": [
-            { "id": 1, "paragraph": "First Paragraph of the Article" },
-            { "id": 2, "paragraph": "Seccond Paragraph of the Article" }
-          ]
+          "body": "First Paragraph of the second Article."
         },
         {
           "id": 2,
           "title": "Article Section Title 1",
           "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": [
-            { "id": 1, "paragraph": "First Paragraph of the second Article" },
-            { "id": 2, "paragraph": "Seccond Paragraph of the first Article" },
-            { "id": 3, "paragraph": "Third Paragraph of the first Article" }
-          ]
+          "body": "First Paragraph of the second Article."
         }
       ]
     }

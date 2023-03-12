@@ -30,9 +30,7 @@ const ArticleLeft: NextPage<IArticlePage> = ({
 
             <div className="grid grid-cols-1 mt-8">
               <div id="StarterContent" className="mt-6">
-                <div className="grid grid-cols-1">
-                  <p className="text-slate-400 mb-4">{text}</p>
-                </div>
+                <div className="grid grid-cols-1">{text}</div>
               </div>
             </div>
           </div>

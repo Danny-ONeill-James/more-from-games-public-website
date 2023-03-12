@@ -1,10 +1,17 @@
 import { Inter } from "next/font/google";
+import { NextPage } from "next";
+
 import Card from "@/components/card";
 import CardContainer from "@/components/cardContainer";
+import { IArticles } from "@/utilities/interfaces";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export function Home() {
+interface IArticlesProps {
+  articles: IArticles[];
+}
+
+const Home: NextPage<IArticlesProps> = ({ articles }) => {
   return (
     <>
       <title>More From Games</title>
@@ -42,21 +49,35 @@ export function Home() {
         </div>
       </div>
       <CardContainer
-        title="Highlights"
-        text="The most recent additions to the More From Games library."
+        title="Recent Articles"
+        text="The most recent additions to the More From Games articles."
       >
-        <Card
-          title={"Title here"}
-          text={"Description Here"}
-          imageLocation={
-            "https://res.cloudinary.com/deftmtx9e/image/upload/v1678368585/More%20From%20Games/Site/site/home-hero_zvr8ak.png"
-          }
-          link={"/"}
-          target={"_self"}
-        />
+        {articles.map((article) => {
+          return (
+            <Card
+              key={article.id}
+              title={article.title}
+              text={article.description}
+              imageLocation={article.imageLocation}
+              link={"/articles/" + article.id}
+              target={"_self"}
+            />
+          );
+        })}
       </CardContainer>
     </>
   );
-}
+};
+
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:3000/api/articlesList");
+  const data = await res.json();
+
+  return {
+    props: {
+      articles: data,
+    },
+  };
+};
 
 export default Home;

@@ -60,12 +60,7 @@ export interface IArticles {
       id: number;
       title: string;
       imageLocation: string;
-      body: [
-        {
-          id: number;
-          paragraph: string;
-        }
-      ];
+      body: string;
     }
   ];
 }

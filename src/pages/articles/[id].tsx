@@ -1,8 +1,6 @@
 import PageHero from "@/components/pageHero";
 import { GetServerSideProps, NextPage } from "next";
 import { IArticles } from "@/utilities/interfaces";
-import CardContainer from "@/components/cardContainer";
-import Card from "@/components/card";
 import ArticleLeft from "@/components/articleLeft";
 import ArticleRight from "@/components/articleRight";
 
@@ -23,7 +21,7 @@ const Article: NextPage<IArticleProps> = ({ article }) => {
                 key={section.id}
                 imageLocation={section.imageLocation}
                 title={section.title}
-                text={section.title}
+                text={section.body}
               />
             );
           } else {
