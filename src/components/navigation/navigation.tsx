@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function NavigationComponent() {
@@ -6,11 +7,17 @@ export default function NavigationComponent() {
 
   return (
     <>
-      <nav
-        id="topnav"
-        className="defaultscroll is-sticky bg-white dark:bg-slate-900"
-      >
+      <nav id="topnav" className="defaultscroll is-sticky dark:bg-slate-900">
         <div className="container">
+          <Link className="logo" href="/">
+            <Image
+              src="https://res.cloudinary.com/deftmtx9e/image/upload/v1678297712/More%20From%20Games/siteLogo/logo-light_nrk68q.png"
+              className="hidden dark:inline-block"
+              alt=""
+              height={690}
+              width={120}
+            />
+          </Link>
           <div className="menu-extras">
             <div className="menu-item">
               <a
@@ -92,12 +99,6 @@ export default function NavigationComponent() {
           </div>
         </div>
       </nav>
-
-      <script src="@/assets/js/plugins.init.js"></script>
-      <script src="@/assets/libs/shufflejs/shuffle.min.js"></script>
-      <script src="@/assets/libs/feather-icons/feather.min.js"></script>
-
-      <script src="@/assets/js/app.js"></script>
     </>
   );
 }
