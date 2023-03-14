@@ -269,6 +269,15 @@
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1677629656/More%20From%20Games/Site/Miniatures/Dark%20Souls/Executioner_Smaugh_aixtrh.png",
       "miniatureLink": "dark-souls-executioner-smough",
       "paintingVideoEmbedCode": "tDhGaIXkqEE"
+    },
+    {
+      "id": 28,
+      "title": "Clan Wren",
+      "description": "An ancient Mandalorian clan with ties to House Vizsla, Clan Wren's storied warriors are legendary for their battlefield prowess. Now they unite with the Rebellion, fighting for a free galaxy and the liberation of Mandalore.",
+      "gameLink": "star-wars-legion",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1677629656/More%20From%20Games/Site/Miniatures/Dark%20Souls/Executioner_Smaugh_aixtrh.png",
+      "miniatureLink": "star-wars-legion-clan-wren",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     }
   ]
 }
