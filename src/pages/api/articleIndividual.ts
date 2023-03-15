@@ -12,7 +12,6 @@ export default async function handler(
     const foundArticle = await articlesJson.find(
       (Articles) => Articles.id == postBody
     );
-    console.log(foundArticle);
 
     res.status(200).json(foundArticle);
   }
