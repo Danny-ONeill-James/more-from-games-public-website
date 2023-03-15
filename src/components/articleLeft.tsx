@@ -8,7 +8,7 @@ const ArticleLeft: NextPage<IArticlePage> = ({
   text,
 }) => {
   return (
-    <div className="container">
+    <div className="container pb-5">
       <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
         <div className="lg:col-span-6 md:col-span-5">
           <div className="sticky top-20">
@@ -30,7 +30,9 @@ const ArticleLeft: NextPage<IArticlePage> = ({
 
             <div className="grid grid-cols-1 mt-8">
               <div id="StarterContent" className="mt-6">
-                <div className="grid grid-cols-1">{text}</div>
+                <div className="grid grid-cols-1">
+                  <p className="text-slate-400 mb-4">{text}</p>
+                </div>
               </div>
             </div>
           </div>

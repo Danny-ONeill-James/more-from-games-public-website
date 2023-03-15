@@ -35,7 +35,7 @@ const Article: NextPage<IArticleProps> = ({ article }) => {
                 key={section.id}
                 imageLocation={section.imageLocation}
                 title={section.title}
-                text={section.title}
+                text={section.body}
               />
             );
           }
