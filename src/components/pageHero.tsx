@@ -11,7 +11,6 @@ const PageHero: NextPage<IPageHero> = ({ title }) => {
   for (let i = 0; i < path.length; i++) {
     breadcrumbs.push({ path: path[i], text: path[i] });
   }
-  console.log("Breadcrumb: " + breadcrumbs);
 
   return (
     <>
@@ -26,7 +25,6 @@ const PageHero: NextPage<IPageHero> = ({ title }) => {
           <ul className="breadcrumb tracking-[0.5px] mb-0 inline-block">
             {breadcrumbs.map((breadcrumb) => {
               if (breadcrumb.text == "") breadcrumb.text = "Home";
-              console.log("Breadcrumb: " + breadcrumbs.slice(-1)[0]);
               if (breadcrumb == breadcrumbs.slice(-1)[0]) {
                 return (
                   <li
