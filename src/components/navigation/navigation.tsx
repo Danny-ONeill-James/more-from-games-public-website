@@ -8,17 +8,18 @@ export default function NavigationComponent() {
   return (
     <>
       <nav id="topnav" className="defaultscroll is-sticky dark:bg-slate-900">
-        <div className="container">
-          <Link className="logo" href="/">
+        <div className="container flex flex-shrink-0 ">
+          <Link className="logo " href="/">
+            <span className="inline-block"></span>
             <Image
               src="https://res.cloudinary.com/deftmtx9e/image/upload/v1678297712/More%20From%20Games/siteLogo/logo-light_nrk68q.png"
-              className="hidden dark:inline-block"
+              className="inline-block"
               alt=""
-              height={690}
-              width={120}
+              height={24}
+              width={138}
             />
           </Link>
-          <div className="menu-extras">
+          <div className="menu-extras absolute top-0 right-0 ">
             <div className="menu-item">
               <a
                 className={isOpen ? "navbar-toggle open" : "navbar-toggle"}
