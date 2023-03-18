@@ -30,7 +30,7 @@ export interface ICardCompoent {
 }
 
 export interface IGame {
-  id: number;
+  id: string;
   title: string;
   description: string;
   type: string;
