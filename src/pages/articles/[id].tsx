@@ -47,7 +47,7 @@ const Article: NextPage<IArticleProps> = ({ article }) => {
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { id } = query;
-  const res = await fetch("http://localhost:3000/api/articleIndividual", {
+  const res = await fetch("http://localhost:3001/api/articleIndividual", {
     body: JSON.stringify(`${id}`),
     method: "POST",
   });
