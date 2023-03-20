@@ -31,7 +31,7 @@ const Articles: NextPage<IArticlesProps> = ({ articles }) => {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/articlesList");
+  const res = await fetch("http://localhost:3001/api/articlesList");
   const data = await res.json();
 
   return {

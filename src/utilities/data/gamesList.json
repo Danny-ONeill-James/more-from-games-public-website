@@ -1,7 +1,7 @@
 {
   "Games": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Star Wars Legein",
       "description": "Star Wars: Legion is played over the course of six rounds as you and your opponent duel over objectives on a battlefield of the Galactic Civil War. At the end of six rounds, the player with the most victory tokens (earned from objectives) wins the game.",
       "type": "Board Game",
@@ -10,7 +10,7 @@
       "purchaseLink": "https://www.firestormgames.co.uk/wargames-miniatures/star-wars-legion?aff=6378bb243d570"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Hero Quest",
       "description": "Players take on the roles of brave adventurers, exploring dungeons and fighting monsters. The game utilizes a unique game system which incorporates miniatures, dungeon tiles, and cards to create an immersive experience. Players must use strategy and teamwork to defeat the monsters and complete their objectives.",
       "type": "Board Game",
@@ -19,7 +19,7 @@
       "purchaseLink": "https://www.firestormgames.co.uk/board-games/fantasy-games/heroquest-c273301?aff=6378bb243d570"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Dark Souls",
       "description": "Take on a tabletop reimagining of one of the most challenging video games ever made. In this cooperative dungeon crawl game for 1-4 players, you'll explore dangerous locations, discover treasure, and fight your way past deadly enemies to reclaim your humanity.",
       "type": "Board Game",
@@ -28,7 +28,7 @@
       "purchaseLink": "https://www.firestormgames.co.uk/board-games/tv-film-computer-themed-games/dark-souls?aff=6378bb243d570"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Warhammer Kill Team",
       "description": "Warhammer 40k Kill team is a two-player skirmish game set in the battlefields of Warhammer 40k. Each player takes control of a small Kill Team, usually consisting of about 8-12 models, and fights for control of objectives or to kill the enemy team.",
       "type": "Skirmish Game",
@@ -37,7 +37,7 @@
       "purchaseLink": "https://www.firestormgames.co.uk/wargames-miniatures/warhammer-40-000-kill-team?aff=6378bb243d570"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Godtear",
       "description": "Godtear is a hex based tabletop skirmish board game for two players. With its dynamic scenarios and pre-assembled, pre-coloured miniatures, it's quick to start but hard to master! Godtear is a scenario driven game. Each scenario has its own rules, but there are common rules that form the basis of all scenarios.",
       "type": "Board Game",
