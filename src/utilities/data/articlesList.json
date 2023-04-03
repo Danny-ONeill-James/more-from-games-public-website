@@ -2,51 +2,6 @@
   "Articles": [
     {
       "id": 1,
-      "title": "Dark Souls our first look",
-      "description": "We tried out the Dark Souls board game, and here are our first thoughts.",
-      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-      "itemLink": "/games/dark-souls",
-      "sections": [
-        {
-          "id": 1,
-          "title": "Title 1",
-          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "Dark Souls, the board game, is a thrilling adventure for those who love the Dark Souls video game series. Released in 2017, the game is designed for one to four players and it is a cooperative game, meaning each player works together to overcome the challenges and complete the game. The goal of the game is to explore the world of Dark Souls and defeat the bosses of each level. The game requires strategy and teamwork. Players are encouraged to work together to overcome the enemies, cast spells, and defeat the bosses."
-        },
-        {
-          "id": 2,
-          "title": "Title 2",
-          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "The game comes with a variety of components, including miniatures, cards, dice, and a rulebook. The miniatures are detailed, allowing players to customize their own character. The cards represent spells, weapons, and items that players can use. The dice are used to roll for damage, and the rulebook provides detailed instructions on how to play the game. Players can also choose to customize their experience by purchasing expansions. These expansions include more miniatures, more cards, and more items. Players can also choose to purchase an expansion pack to add more depth and complexity to the game."
-        },
-        {
-          "id": 3,
-          "title": "Title 3",
-          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "Dark Souls board game features a variety of mechanics that combine to create a thrilling adventure. Players must work together to explore the world and defeat the bosses of each level. The game features a variety of components, including miniatures, cards, dice, and a rulebook. The miniatures are detailed, allowing players to customize their own character. The cards represent spells, weapons, and items that players can use. The dice are used to roll for damage, and the rulebook provides detailed instructions on how to play the game. The game also features an innovative board that changes as players explore the world. The board is divided into nodes, which represent various locations in the game world. As players explore, they will encounter enemies, bosses, and items. The board changes based on the type of enemy that is encountered and the items that are collected."
-        },
-        {
-          "id": 4,
-          "title": "Title 4",
-          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "The game also features an interesting combat system. Players will face enemies and bosses and must use their weapons and spells to defeat them. There are a variety of weapons and spells available, and players must use strategy to decide which ones to use. The combat system also features a clever system of dodging and blocking, allowing players to avoid damage from enemies and bosses."
-        },
-        {
-          "id": 5,
-          "title": "Title 5",
-          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "Dark Souls board game is a thrilling and engaging adventure for fans of the video game series. It features an innovative board, interesting combat system, and detailed miniatures that allow players to customize their own character. The game also encourages teamwork and strategy, making it a great choice for those looking for a cooperative game."
-        },
-        {
-          "id": 6,
-          "title": "Title 6",
-          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678295557/More%20From%20Games/placeholder_wxmc94_bynmht.png",
-          "body": "Overall, Dark Souls board game earns an 87/100. Theme: 8/10 - The game faithfully captures the world of Dark Souls and allows players to explore it together. Gameplay: 9/10 - The game features an innovative board and a clever combat system. It also encourages teamwork and strategy. Components: 9/10 - The game features detailed miniatures, cards, dice, and a rulebook. Replayability: 8/10 - The game features expansions that allow players to customize their experience and add more depth and complexity.  Value: 8/10 - The game is reasonably priced, making it a great value for those looking for a cooperative adventure game."
-        }
-      ]
-    },
-    {
-      "id": 2,
       "title": "Zombie Painting Guide",
       "description": "Painting your own Zombie from the beloved HeroQuest board game is easier than you might think! This quick and easy guide will show you how to give your zombie a very basic painting scheme, suitable for tabletop play. We’ve prepared this guide as part of our Start Painting series, so all you need is the starter painting set we covered in the start painting article.",
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676645295/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-zombie-painted_lwg7dg.png",
