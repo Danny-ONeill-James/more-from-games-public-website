@@ -1,0 +1,37 @@
+{
+  "Articles": [
+    {
+      "id": 1,
+      "title": "Zombie Painting Guide",
+      "description": "Painting your own Zombie from the beloved HeroQuest board game is easier than you might think! This quick and easy guide will show you how to give your zombie a very basic painting scheme, suitable for tabletop play. We’ve prepared this guide as part of our Start Painting series, so all you need is the starter painting set we covered in the start painting article.",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676645295/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-zombie-painted_lwg7dg.png",
+      "itemLink": "/miniatures/hero-quest-zombies",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Paints List",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678918086/More%20From%20Games/Site/Articles/articl-2-paints_ryxwiv.png",
+          "body": "Painting the Zombie model from the HeroQuest board game is a fun and rewarding process. Before starting, it is important to prime the model with a grey primer to protect the model and paint from chipping. Once the primer is dried, it is time to start painting! For this project, we recommend the following paints: Bone White, Stonewall Grey, Leather Brown, Beasty Brown, Gunmetal and Black. To add depth to the model and bring out the details, washes are also used. We suggest using Black Wash, Umber Wash and Red Wash. When applying the washes, use sparingly and build up the layers for a more natural look. After the washes are applied, the model is ready for the finishing touches."
+        },
+        {
+          "id": 2,
+          "title": "Base Coats",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678918214/More%20From%20Games/Site/Articles/article-1-basecoat_fdyrey.png",
+          "body": "Painting the Zombie from the HeroQuest board game is quite simple with a few base coats. To start, use bone white all over the skin areas. This can be applied liberally and you don't need to worry too much about the details. Moving on to the trousers, apply a stonewall grey. To add more details, use leather brown on the shoes, arm wraps and leather belt. This will create a light brown base coat. For the wooden shield, use a beasty brown. To finish, gunmetal should be used for the sword and metal areas in the middle and around the shield. Lastly, paint the hair black."
+        },
+        {
+          "id": 3,
+          "title": "Wash Stage",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678918336/More%20From%20Games/Site/Articles/article-2-shade_yhjp2d.png",
+          "body": "For the wash stage begin by applying a black wash over the grey and metal areas. Umber wash should then be used for the shield, belt, wraps and boots. For the Zombie's flesh, it is important to dab a red wash over the area in blotches in order to give it an uneven, rotting look. To complete the effect, a thick pale grey wash should be applied to the hair, to give it a weathered appearance."
+        },
+        {
+          "id": 4,
+          "title": "Finally",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1676645295/More%20From%20Games/Site/Miniatures/Hero%20Quest/heroQuest-zombie-painted_lwg7dg.png",
+          "body": "Painting the HeroQuest Zombie from the board game is a simple task that can be done by anyone, regardless of their experience level. With just a few basic supplies, you can become a miniature artist and create a Zombie to bring your game to life! Start by selecting a base coat of paint for your Zombie, then use washes to bring out shadows and add depth. Finally, finish off your Zombie with details such as eyes, teeth and any other features you wish. In no time you will have a fully painted Zombie ready to use in your HeroQuest board game, DnD or any other fantasy roleplay game!"
+        }
+      ]
+    }
+  ]
+}
