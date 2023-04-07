@@ -5,6 +5,7 @@ import CardContainer from "@/components/cardContainer";
 
 import { IGame } from "@/utilities/interfaces";
 import { NextPage } from "next";
+import { GamesListApi } from "../api/gamesList";
 
 interface IGameProps {
   boardGames: IGame[];
@@ -32,15 +33,14 @@ const Games: NextPage<IGameProps> = ({ boardGames }) => {
   );
 };
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3001/api/gamesList");
-  const data = await res.json();
+export async function getServerSideProps() {
+  const res = await GamesListApi();
 
   return {
     props: {
-      boardGames: data,
+      boardGames: res,
     },
   };
-};
+}
 
 export default Games;
