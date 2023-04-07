@@ -3,6 +3,7 @@ import CardContainer from "@/components/cardContainer";
 import PageHero from "@/components/pageHero";
 import { IArticles } from "@/utilities/interfaces";
 import { NextPage } from "next";
+import { ArticlesListApi } from "../api/articlesList";
 
 interface IArticlesProps {
   articles: IArticles[];
@@ -30,15 +31,14 @@ const Articles: NextPage<IArticlesProps> = ({ articles }) => {
   );
 };
 
-export const getServerSideProps = async () => {
-  const res = await fetch("/api/articlesList");
-  const data = await res.json();
+export async function getServerSideProps() {
+  const res = await ArticlesListApi();
 
   return {
     props: {
-      articles: data,
+      articles: res,
     },
   };
-};
+}
 
 export default Articles;
