@@ -5,6 +5,8 @@ import Card from "@/components/card";
 import CardContainer from "@/components/cardContainer";
 import { IArticles } from "@/utilities/interfaces";
 
+import { ArticlesListApi } from "./api/articlesList";
+
 const inter = Inter({ subsets: ["latin"] });
 
 interface IArticlesProps {
@@ -69,15 +71,14 @@ const Home: NextPage<IArticlesProps> = ({ articles }) => {
   );
 };
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3001/api/articlesList");
-  const data = await res.json();
+export async function getServerSideProps() {
+  const res = await ArticlesListApi();
 
   return {
     props: {
-      articles: data,
+      articles: res,
     },
   };
-};
+}
 
 export default Home;
