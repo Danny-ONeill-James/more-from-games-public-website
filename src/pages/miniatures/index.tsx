@@ -33,7 +33,7 @@ const Games: NextPage<IGameProps> = ({ miniatures }) => {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3001/api/miniaturesList");
+  const res = await fetch("http://localhost:3000/api/miniaturesList");
   const data = await res.json();
 
   return {

@@ -54,11 +54,11 @@ const Game: NextPage<IMiniatureProps> = ({ miniature, articles }) => {
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { id } = query;
   const [miniatureResult, articleResults] = await Promise.all([
-    fetch("http://localhost:3001/api/miniatureIndividual", {
+    fetch("http://localhost:3000/api/miniatureIndividual", {
       body: JSON.stringify(`${id}`),
       method: "POST",
     }),
-    fetch("http://localhost:3001/api/articlesList", {
+    fetch("http://localhost:3000/api/articlesList", {
       body: JSON.stringify(`/miniatures/${id}`),
       method: "POST",
     }),

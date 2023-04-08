@@ -79,15 +79,15 @@ const Game: NextPage<IGameProps> = ({ game, miniatures, articles }) => {
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { id } = query;
   const [gameResults, miniaturesResults, articlesResults] = await Promise.all([
-    fetch("http://localhost:3001/api/gameIndividual", {
+    fetch("http://localhost:3000/api/gameIndividual", {
       body: JSON.stringify(`${id}`),
       method: "POST",
     }),
-    fetch("http://localhost:3001/api/miniaturesList", {
+    fetch("http://localhost:3000/api/miniaturesList", {
       body: JSON.stringify(`${id}`),
       method: "POST",
     }),
-    fetch("http://localhost:3001/api/articlesList", {
+    fetch("http://localhost:3000/api/articlesList", {
       body: JSON.stringify(`/games/${id}`),
       method: "POST",
     }),
