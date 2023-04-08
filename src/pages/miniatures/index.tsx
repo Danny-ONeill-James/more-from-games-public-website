@@ -1,15 +1,15 @@
+import { NextPage } from "next";
 import Card from "@/components/card";
 import PageHero from "@/components/pageHero";
 import CardContainer from "@/components/cardContainer";
-
 import { IMiniature } from "@/utilities/interfaces";
-import { NextPage } from "next";
+import { MiniaturesListApi } from "../api/miniaturesList";
 
-interface IGameProps {
+interface IMiniatureProps {
   miniatures: IMiniature[];
 }
 
-const Games: NextPage<IGameProps> = ({ miniatures }) => {
+const Miniatures: NextPage<IMiniatureProps> = ({ miniatures }) => {
   return (
     <>
       <title>More From Games</title>
@@ -32,15 +32,14 @@ const Games: NextPage<IGameProps> = ({ miniatures }) => {
   );
 };
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3001/api/miniaturesList");
-  const data = await res.json();
+export async function getServerSideProps() {
+  const res = await MiniaturesListApi();
 
   return {
     props: {
-      miniatures: data,
+      miniatures: res,
     },
   };
-};
+}
 
-export default Games;
+export default Miniatures;
