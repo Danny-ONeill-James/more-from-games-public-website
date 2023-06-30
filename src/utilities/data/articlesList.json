@@ -32,6 +32,21 @@
           "body": "Painting the HeroQuest Zombie from the board game is a simple task that can be done by anyone, regardless of their experience level. With just a few basic supplies, you can become a miniature artist and create a Zombie to bring your game to life! Start by selecting a base coat of paint for your Zombie, then use washes to bring out shadows and add depth. Finally, finish off your Zombie with details such as eyes, teeth and any other features you wish. In no time you will have a fully painted Zombie ready to use in your HeroQuest board game, DnD or any other fantasy roleplay game!"
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "Coming Soon: New Painting Guide",
+      "description": "One of our talanted painters has created this stunning Legion of the Damned colour scheme.",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1688131522/More%20From%20Games/Site/Miniatures/Warhammer%2040%2C000/space_marine_legion_of_the_damned_rhoyng.png",
+      "itemLink": "/miniatures/warhammer-40k-space-marine-terminator-legion-of-the-damned",
+      "sections": [
+        {
+          "id": 1,
+          "title": "To Come",
+          "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1688131856/More%20From%20Games/Site/Miniatures/Warhammer%2040%2C000/space_marine_legion_of_the_damned-2_k49pj6.png",
+          "body": "We are excited to bring you the news that we will be starting our painting tutorials with this stunning legion of the Damnede Terminator. Please stay Tuned."
+        }
+      ]
     }
   ]
 }

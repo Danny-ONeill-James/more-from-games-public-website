@@ -16,7 +16,7 @@ const Home: NextPage<IArticlesProps> = ({ articles }) => {
     <>
       <title>More From Games</title>
       <section className="relative md:py-52 py-36 items-center overflow-hidden bg-gradient-to-br to-orange-600/20 via-fuchsia-600/20 from-indigo-600/20">
-        <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/deftmtx9e/image/upload/v1678368585/More%20From%20Games/Site/site/home-hero_zvr8ak.png')] bg-no-repeat bg-bottom bg-cover"></div>
+        <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/deftmtx9e/image/upload/v1688131256/More%20From%20Games/Site/site/home-hero_zvr8ak.png')] bg-no-repeat bg-bottom bg-cover"></div>
         <div className="container">
           <div className="grid grid-cols-1 items-center mt-10">
             <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">

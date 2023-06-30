@@ -278,6 +278,15 @@
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678889543/More%20From%20Games/Site/Miniatures/star%20wars%20legion/clan-wren_hczibn.png",
       "miniatureLink": "star-wars-legion-clan-wren",
       "paintingVideoEmbedCode": "tDhGaIXkqEE"
+    },
+    {
+      "id": 28,
+      "title": "Legeon of the Damned Trminator",
+      "description": "The Legion of the Damned is a mysterious band of Space Marines which appears unbidden when all hope seems lost, striding forth from its hidden netherworld in the Immaterium to bring retribution to the Imperium's foes. Once their bloody work is complete the Legionaries vanish into myth once more.",
+      "gameLink": "warhammer40k",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1688131522/More%20From%20Games/Site/Miniatures/Warhammer%2040%2C000/space_marine_legion_of_the_damned_rhoyng.png",
+      "miniatureLink": "warhammer-40k-space-marine-terminator-legion-of-the-damned",
+      "paintingVideoEmbedCode": "tDhGaIXkqEE"
     }
   ]
 }

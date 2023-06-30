@@ -44,6 +44,15 @@
       "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1678813665/More%20From%20Games/Site/Games/godtear_wrrsw8.png",
       "gameLink": "godtear",
       "purchaseLink": "https://www.firestormgames.co.uk/wargames-miniatures/godtear?aff=6378bb243d570"
+    },
+    {
+      "id": "6",
+      "title": "Warhammer 40,000",
+      "description": "arhammer 40,000 takes place in the grim darkness of the far future, in which humanity fights spectacular battles across the galaxy to defend its place among the stars. Arrayed against the might of mankind are the many different alien races and the malignant forces of Chaos.",
+      "type": "Tabletop Wargame Game",
+      "imageLocation": "https://res.cloudinary.com/deftmtx9e/image/upload/v1688130572/More%20From%20Games/Site/Games/Warhammer-40_000_tv2ht7.png",
+      "gameLink": "warhammer40k",
+      "purchaseLink": "https://www.firestormgames.co.uk/wargames-miniatures/warhammer-40-000?aff=6378bb243d570"
     }
   ]
 }
